@@ -1,27 +1,35 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <link href="https://fonts.googleapis.com/css2?family=UnifrakturCook&display=swap" rel="stylesheet">
     <title>Fail State Studios</title>
     <style>
-        .center-text {
-        text-align: center;
-        }
+      .custom-font {
+        font-family: 'UnifrakturCook', cursive;
+        font-size: 50px;
+      }
 
-        .custom-font {
-        font-family: Arial, sans-serif;
-        font-size: 36px;
-        }
-
-        .white-color {
-        color: rgb(255, 255, 255);
-        }
-
-        body {
+      .top-section {
         background-color: rgb(1, 20, 43);
-        }
+        color: white;
+        padding: 50px 0;
+        text-align: center;
+      }
+
+      .bottom-section {
+        background-color: white;
+        color: black;
+        min-height: 500px;
+        padding: 20px;
+      }
     </style>
   </head>
   <body>
-    <h1 class="center-text white-color custom-font">Fail State Studios</h1>
+    <div class="top-section">
+      <h1 class="custom-font">Fail State Studios</h1>
+    </div>
+    <div class="bottom-section">
+      <p>Welcome to our website! Here’s some info in black text on a white background.</p>
+    </div>
   </body>
 </html>
